@@ -24,12 +24,11 @@ In narrowing down the questions, various models are tried and iterated to get a 
 Once conclusions were reached, visualizations were created for presentation
 
 ## Results
-Option 2 - FAA Wildlife Strikes, 2015
+As of March 9th, 2023, the global COVID-19 situation reports over 687 million confirmed cases worldwide, with approximately 7 million confirmed deaths. The top five severely affected countries by the COVID-19 pandemic were the United States, India, France, Germany, and Brazil. These nations experienced a significant impact in terms of confirmed cases,and  deaths. 
 
-Questions:
-1) What are the financial ramifications of wildlife strikes on the aviation industry?
-2) What are the environmental ramifications of wildlife strikes on local ecosystems?
-
+The statistical analysis results indicate that both GDP and population have statistically significant relationships with the number of confirmed cases. 
+For Confirmed cases by GDP, the p-value of 4.84e-5 is very small, suggesting that the relationship between confirmed cases and GDP is statistically significant and the coefficient of 57.6124 indicates that, on average, for a one-unit increase in GDP, there is an associated increase of 57.6124 units in confirmed cases.
+Similarly, for Confirmed cases by population, the p-value of 9.61e-6 is very small, indicating that the relationship between confirmed cases and population is statistically significant.The coefficient of 2.797e+4 is substantial, suggesting that, on average, for a one-unit increase in population, there is an associated increase of 2.797e+4 units in confirmed cases.
 
 
 ## Challenges 
@@ -42,6 +41,12 @@ One major challenge was the introduction of collboration on GitHub. This was the
 Another challenge we faced was gathering data. In an effort to challenge ourselves, we wanted to query APIs to gather our data. Our oversight of the fact that the COVID-19 pandemic was official declared over in most countries by May of 2023, all API providers had since ended their regular updates. As a result, we were unable to query and APIs and had to rely on historical data. Fortunately, this data was very robust and useful for the rest of the project.
 
 ## Future Goals
-
+1. Explore more modelling types.
 
 ## Refereences
+International Monetary Fund. (2023). Download WEO Data: October 2023 Edition. [Data set]. https://www.imf.org/en/Publications/WEO/weo-database/2023/October
+John Hopkins Hospital (2023). Coronavirus Cases and Deaths. [Data set]. https://nuttaphat.com/covid19-api
+M-Media-Group (2023). Covid-19-API [Data set]. https://github.com/M-Media-Group/Covid-19-API
+Worldwide; IMF. (2023). The 20 countries with the lowest estimated gross domestic product (GDP) per capita in 2023. [Data set]. https://www.statista.com/statistics/256547/the-20-countries-with-the-     lowest-gdp-per-capita/
+Worldwide; IMF. (2023). The 20 countries with the largest gross domestic product (GDP) per capita in 2022.[Data set]. https://www.statista.com/statistics/270180/countries-with-the-largest-gross-domestic-product-gdp-per-capita/
+HDX - Novel Coronavirus (COVID-19) Cases Data. https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases
