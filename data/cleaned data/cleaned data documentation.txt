@@ -1,11 +1,35 @@
 This documentation for explanations of cleaned data columns in each file:
 
-**COVID_19_Cases**
+**cases_covid19_confirmed_deaths_recovered**
+	3 tabs:
+	confirmed_monthly_covid19
+		-Dated from Jan 22, 2020 - Mar 9, 2023
+		-Country (with province)
+		-LAT/LON 
+		-Dates column denotes a running count of the number of confirmed cases TOTAL up to that date
+
+	deaths_monthly_covid19
+		-Dated from Jan 22, 2020 - Mar 9, 2023
+		-Country (with province)
+		-LAT/LON 
+		-Dates column denotes a running count of the number of deaths TOTAL up to that date
+
+	recovered_monthly_covid19
+		-Dated from Jan 22, 2020 - Aug 4, 2021
+		-Country (with province)
+		-LAT/LON 
+		-Dates column denotes a running count of the number of recovered cases TOTAL up to that date
+
+**COVID-19_Overall**
 	-Province/Country (not all countries are broken down by province)
 	-LAT/LONG info seems to denote the approximate 'middle' of the country and not necessarily any specific landmark
 	-Confirmed total COVID cases
 	-Confirmed total COVID deaths
 	Last Updated 2022/09/11 05:20:45+00
+
+**COVID-19_Country**
+	-Same as COVID-19_Overall but without the provinces. 
+	-Sorted fully by country
 
 **GDP_Population**
 	3 tabs:
@@ -30,23 +54,4 @@ This documentation for explanations of cleaned data columns in each file:
 		-Sri Lanka
 		-Syria
 
-**cases_covid19_confirmed_deaths_recovered**
-	3 tabs:
-	confirmed_monthly_covid19
-		-Dated from Jan 22, 2020 - Mar 9, 2023
-		-Country (with province)
-		-LAT/LON 
-		-Dates column denotes a running count of the number of confirmed cases TOTAL up to that date
-
-	deaths_monthly_covid19
-		-Dated from Jan 22, 2020 - Mar 9, 2023
-		-Country (with province)
-		-LAT/LON 
-		-Dates column denotes a running count of the number of deaths TOTAL up to that date
-
-	recovered_monthly_covid19
-		-Dated from Jan 22, 2020 - Aug 4, 2021
-		-Country (with province)
-		-LAT/LON 
-		-Dates column denotes a running count of the number of recovered cases TOTAL up to that date
 
