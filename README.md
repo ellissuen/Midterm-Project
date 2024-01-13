@@ -27,15 +27,33 @@ Once conclusions were reached, visualizations were created for presentation
 ## Results
 As of March 9th, 2023, (our last recorded update in the data set) the global COVID-19 situation reports over 687 million confirmed cases worldwide, with approximately 7 million confirmed deaths. The top five most severely affected countries by the COVID-19 pandemic were the United States, India, France, Germany, and Brazil. These nations experienced a significant impact in terms of confirmed cases, and deaths. 
 
+(See data > animation_cleaning
+and animations)
+
 Through these general results, we wanted to understand the answers to 2 questions:
 1. How does the LONGITUDE (ie. average temperatures) of a country affect confirmed cases and mortality rates of COVID-19?
 
+The longitude had a minor positive correlation to the rate of confirmed cases. Even though anecdotally, we understand that the transmission rate is higher in warmer climates compared to colder ones, it seems that many more factors seem to play a role in determining the outcome of COVID-19 in a country. Some major factors that we suspect being more effective in predicting the amount of cases is governmental policy and restriction effectiveness within a country. 
+
+This conclusion is also true when looking into the Fatality Ratio Per 100 Cases and the Incident Rate per 100,000 Population. The countries that have the high incident rate per population does not correlate well with the fatality rate per cases. The conclusion being that many more factors play into the mortality rate of COVID mainly being other health care provisions and the way the country handled the pandemic as a whole
+
+(See data > pipedream)
 
 2. How does the GDP and POPULATION affect confirmed cases and mortality rates of COVID-19?
 
-The statistical analysis results indicate that both GDP / Capita and population have statistically significant relationships with the number of confirmed cases. For confirmed cases by GDP, the p-value of 4.84e-5 is very small, suggesting that the relationship between confirmed cases and GDP is statistically significant and the coefficient of 57.6124 indicates that, on average, for a one-unit increase in GDP, there is an associated increase of 57.6124 units in confirmed cases.
-Similarly, for Confirmed cases by population, the p-value of 9.61e-6 is very small, indicating that the relationship between confirmed cases and population is statistically significant.The coefficient of 2.797e+4 is substantial, suggesting that, on average, for a one-unit increase in population, there is an associated increase of 2.797e+4 units in confirmed cases.
+When analyzing the correlation between GDP or POPULATION against CONFIRMED CASES we have these take aways
+* GDP / CONFIRMED CASES
+  * R-squared = 0.105 (predicts ~10% of the variance)
+  * P-value = 4.85 e-5 (statistically significant)
+  * COEF = 57.6124 (increase of 57.6124 cases per increase of GDP / capita)
+* POP / CONFIRMED CASES
+  * R-squared = 0.124 (predicts ~12% of the variance)
+  * P-value = 9.61 e-6 (statistically significant)
+  * COEF = 2.797 e+4 (increase of 2797 cases per increase of 1 million population)
 
+In general we can see that both GDP and Population can be predicted to increase the amount of confirmed cases in a country. While we expect the population increase to increase COVID cases, the result of increased GDP = increased cases was more unexpected. Originally, we hypothesized that an increased GDP meant that there would be more financial ability to provide public safety meansures. However, the data points towards the opposite conclusion. It seemed that the private freedoms that citizen demanded from their governments in higher GDP countries ultimately led to a higher increase of confirmed cases of COVID-19 unfortunately.
+
+(See data > GDP_POP regression)
 
 ## Challenges 
 The major challenge was the introduction of collboration on GitHub. This was the first time that any of us had any significant usage of Git and GitHub aside from the other projects (but did not require much Git usage). The process of data professions working together on one project similar to that of a workplace was able to teach us the importance of communication in:
